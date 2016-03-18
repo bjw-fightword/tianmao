@@ -325,9 +325,18 @@ var jstuquanba=$(".jstuquanba")[0]
        jstuquanba.style.display="none";
       })
 
-
-
-
+//左侧楼层跳转
+var jump1=$(".jump1");
+var jump_a=$(".jump_a");
+for(var i=0;i<jump1.length;i++){
+  jump1[i].index=i;
+  jump1[i].onmouseover=function(){
+    jump_a[this.index].style.display="block";
+  }
+  jump1[i].onmouseout=function(){
+    jump_a[this.index].style.display="none";
+  }
+}
 
 
 

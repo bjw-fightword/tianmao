@@ -21,7 +21,12 @@ body{
 	height: 100%;
 	background: #f5f5f5;
 }
-.jump{
+
+
+
+
+
+/* .jump{
     	width: 30px;
     	height: 360px;
     	position: fixed;
@@ -36,11 +41,76 @@ body{
     	line-height: 30px;
     	border:1px solid #333;
     	margin-top: -1px; 
-    }
+    }*/
 .jump img{
-	margin-top: 7px;
-	margin-left: 1.5px;
+	margin-top: 11px;
+	margin-left: 12.5px;
 }
+ 
+.jump{
+    	width: 42px;
+    	height: 432px;
+    	position: fixed;
+    	left: 32px;
+    	top:20%;
+    	display: none;
+    	cursor: pointer;
+
+    }
+    .jump li {
+    	line-height: 17px;
+    	width: 42px;
+    	height: 38px;
+    	margin-top: -1px; 
+    	border: 1px solid #E6E6E6;
+    	position: relative;
+ }
+  .jump>li>span{
+  	display: block;
+  	width: 42px;
+    height: 38px;
+    border: 1px solid #E60012;
+    line-height: 18px;
+    color: #fff;
+    background:#FF3C3C;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 60;
+    display: none;
+  }
+    .jump>li>a{
+  	display: block;
+  	width: 42px;
+    height: 38px;
+    border: 1px solid #E60012;
+    line-height: 18px;
+    color: #fff;
+    background:#FF3C3C;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 60;
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .jshead{
 		width: 100%;
 		height: 50px;
@@ -78,7 +148,7 @@ body{
 	border:none;
 	line-height: 30px;
 	float: left;
-
+	outline: medium;
 }
 .jssousuo_a{
 	float: right;
@@ -139,7 +209,7 @@ body{
 		 	border-top:7px solid #494949;
 		 	position: absolute;
 		 	top:17px;
-	display: none;
+			display: none;
 		 	left: -27px;
 }
 
@@ -158,20 +228,7 @@ body{
 	display: none;
 }
 
-.jstuquanaa{
-			display: block;
-			width: 0px;
-			height: 0px;
-	 		border-left:7px solid rgba(0,0,0,0); 
-	 		border-right:7px solid rgba(0,0,0,0); 
-		 	border-bottom:7px solid #fff;
-		 	position: absolute;
-		 	top:10px;
-			display: none;
-		 	left: -7px;
-		
-		 	
-}
+
 .jstuquanba{
 			display: block;
 			width: 0px;
@@ -704,7 +761,7 @@ display: none;
 	border:none;
 	line-height: 38px;
 	float: left;
-
+	outline: medium;
 }
 .sousuo_a{
 	float: right;
